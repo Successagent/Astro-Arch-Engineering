@@ -2,7 +2,7 @@
 import React from "react";
 
 // Components
-import { Footer, Header, Product } from "../../components";
+import { Footer, Header, Product, WorkCarousel } from "../../components";
 
 // Icons
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -12,16 +12,13 @@ import {
 } from "react-icons/md";
 
 // Images
-import home1 from "../../assets/grid_2.jpg";
-import home2 from "../../assets/grid_1.jpg";
-import home3 from "../../assets/grid_3.jpg";
 import review1 from "../../assets/grid_4.jpg";
 import review2 from "../../assets/grid_2.jpg";
 import client1 from "../../assets/astrostudiozlogo.jpg";
 import client2 from "../../assets/orbitalLogo.png";
 import client3 from "../../assets/noseason.png";
 
-const index = () => {
+const Home = () => {
   return (
     <section>
       <Header />
@@ -55,50 +52,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="home_what_we_do_sect_body">
-          <div>
-            <div className="home_what_we_do_sect_body_image_con">
-              <img src={home2} alt="" />
-            </div>
-            <div className="home_what_we_do_sect_body_text_con">
-              <h3>Laminate Flooring</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                numquam vel laborum animi deleniti optio. Dicta quasi fugiat
-                aperiam deleniti.
-              </p>
-              <a href="#">SERVICE DETAILS</a>
-            </div>
-          </div>
-          <div>
-            <div className="home_what_we_do_sect_body_image_con">
-              <img src={home3} alt="" />
-            </div>
-            <div className="home_what_we_do_sect_body_text_con">
-              <h3>Laminate Flooring</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                numquam vel laborum animi deleniti optio. Dicta quasi fugiat
-                aperiam deleniti.
-              </p>
-              <a href="#">SERVICE DETAILS</a>
-            </div>
-          </div>
-          <div>
-            <div className="home_what_we_do_sect_body_image_con">
-              <img src={home1} alt="" />
-            </div>
-            <div className="home_what_we_do_sect_body_text_con">
-              <h3>Laminate Flooring</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                numquam vel laborum animi deleniti optio. Dicta quasi fugiat
-                aperiam deleniti.
-              </p>
-              <a href="#">SERVICE DETAILS</a>
-            </div>
-          </div>
-        </div>
+        <WorkCarousel />
       </section>
       <section className="carousel_container">
         <p>WORKING WITH US</p>
@@ -150,4 +104,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;

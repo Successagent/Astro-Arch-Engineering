@@ -4,6 +4,7 @@
 }
 
 .about_hero_sect .home_what_we_do_sect_body {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
@@ -36,6 +37,20 @@
 .about_team_sect {
     padding: 100px 50px;
     padding-top: 0px;
+}
+
+.about_team_sect .home_what_we_do_sect_body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about_team_sect .home_what_we_do_sect_body img {
+    height: 100%;
+    width: 100%;
+}
+
+.about_team_sect .home_what_we_do_sect_body .home_what_we_do_sect_body_image_con {
+    height: 400px;
 }
 
 .about_team_sect .home_what_we_do_sect_body .hr_text::after {

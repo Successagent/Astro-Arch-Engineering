@@ -168,14 +168,20 @@
     color: #999;
     width: 35px;
     text-align: center;
+    cursor: pointer;
 }
 
 .home_what_we_do_sect_body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    display: flex;
+    align-items: center;
     margin-top: 60px;
+    gap: 30px;
 }
+
+.react-multi-carousel-list .carousel_items {
+    margin-right: 20px;
+}
+
 
 .home_what_we_do_sect_body_image_con {
     height: 50%;
