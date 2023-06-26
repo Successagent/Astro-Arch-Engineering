@@ -1,0 +1,13 @@
+.services_hero_sect {
+    padding: 50px;
+}
+
+.services_hero_sect .home_what_we_do_sect_body {
+    gap: 50px;
+}
+
+@media(max-width:600px) {
+    .services_hero_sect {
+        padding: 30px;
+    }
+}

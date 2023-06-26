@@ -1,0 +1,35 @@
+.page_heros {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f8f9f9;
+}
+
+.page_heros h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.page_heros .btn {
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    color: rgb(136, 136, 136);
+}
+
+@media(max-width:600px) {
+    .page_heros {
+        padding: 30px;
+        margin-top: 80px;
+    }
+
+    .page_heros h1 {
+        font-size: 20px;
+    }
+}

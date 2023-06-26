@@ -1,0 +1,13 @@
+.our_work_hero .featured_grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 50px;
+}
+
+@media(max-width:600px) {
+    .our_work_hero .featured_grid {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+}
