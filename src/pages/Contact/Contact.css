@@ -41,7 +41,7 @@ form {
     grid-template-areas:
         "header header1"
         "main main2"
-        'footer footer'
+        'footer2 footer2'
         "footer1 footer1"
         "button button";
 }
@@ -62,7 +62,7 @@ form {
     grid-area: main2;
 }
 
-.footer {
+.footer2 {
     grid-area: footer;
 }
 

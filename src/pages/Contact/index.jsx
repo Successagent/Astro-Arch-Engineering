@@ -31,7 +31,7 @@ const Contact = () => {
               type="text"
               placeholder="Your Phone Number *"
             />
-            <input className="footer" type="text" placeholder="Your Subject" />
+            <input className="footer2" type="text" placeholder="Your Subject" />
             <textarea className="footer1" placeholder="Message *"></textarea>
             <button className="btn">SEND MESSAGE</button>
           </form>
