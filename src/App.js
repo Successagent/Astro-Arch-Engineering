@@ -6,8 +6,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { Home, About, Services, OurWorks, Contact } from "./pages";
 
 // STYLES
-import "./components/Footer/Footer.css";
-import "./components/Header/Header.css";
+
 import "./pages/Home/Home.css";
 import "./pages/About/About.css";
 import "./components/Hero/Hero.css";
