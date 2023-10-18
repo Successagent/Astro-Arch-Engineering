@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BiChevronsRight } from "react-icons/bi";
 import { RiInstagramFill } from "react-icons/ri";
